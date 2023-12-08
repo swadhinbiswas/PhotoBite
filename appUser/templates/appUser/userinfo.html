@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>User Form</title>
+</head>
+<body class="bg-gray-100 p-6">
+
+    <div class="max-w-md mx-auto bg-white rounded p-8 shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">User Profile</h2>
+
+        <!-- Form -->
+        <form action="#" method="POST",enctype="multipart/form-data">
+            {% csrf_token %} 
+
+            <!-- Name -->
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" placeholder="Enter your name" required>
+            </div>
+
+            <!-- Profile Picture Upload -->
+            <div class="mb-4">
+                <label for="profilePicture" class="block text-gray-700 text-sm font-bold mb-2">Profile Picture</label>
+                <input type="file" id="profilePicture" name="profilePicture" class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" accept="image/*">
+            </div>
+
+            <!-- Bio -->
+            <div class="mb-4">
+                <label for="bio" class="block text-gray-700 text-sm font-bold mb-2">Bio</label>
+                <textarea id="bio" name="bio" class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500" placeholder="Write a short bio" rows="4"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
