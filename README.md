@@ -36,30 +36,30 @@ photobite is a image Gallery using Django .It's a biggner friendly project made 
 
 # Logo
 
-![Logo](https://gitlab.com/pyhub2/assets/-/raw/f3875de550c037dad040c362aacce2d252b9eb61/Screenshot_from_2023-12-09_02-12-11.png)
+![Logo](https://raw.githubusercontent.com/swadhinbiswas/PhotoBite/main/IMAGESTORE/Screenshot%20from%202023-12-09%2002-12-11.png)
 
 
 ## Screenshots
 #### Homepage
-![App Screenshot](https://gitlab.com/pyhub2/assets/-/raw/main/Screenshot_from_2023-12-09_02-19-47.png)
+![App Screenshot](https://raw.githubusercontent.com/swadhinbiswas/PhotoBite/main/IMAGESTORE/Screenshot%20from%202023-12-09%2002-19-47.png)
 
 #### Login page
 
-![App Screenshot](https://gitlab.com/pyhub2/assets/-/raw/main/Screenshot_from_2023-12-09_02-29-26.png)
+![App Screenshot](https://raw.githubusercontent.com/swadhinbiswas/PhotoBite/main/IMAGESTORE/Screenshot%20from%202023-12-09%2002-29-26.png)
 
 
 #### SignUp page
 
-![App Screenshot](https://gitlab.com/pyhub2/assets/-/raw/main/Screenshot_from_2023-12-09_02-27-39.png)
+![App Screenshot](https://raw.githubusercontent.com/swadhinbiswas/PhotoBite/main/IMAGESTORE/Screenshot%20from%202023-12-09%2002-27-39.png)
 
 
 #### Dashboard
 
-![App Screenshot](https://gitlab.com/pyhub2/assets/-/raw/main/Screenshot_from_2023-12-09_02-19-47.png)
+![App Screenshot](https://raw.githubusercontent.com/swadhinbiswas/PhotoBite/main/IMAGESTORE/Screenshot%20from%202023-12-08%2016-53-10.png)
 
 
 #### upload page
-![App Screenshot](https://gitlab.com/pyhub2/assets/-/raw/main/Screenshot_from_2023-12-09_02-23-32.png)
+![App Screenshot](https://raw.githubusercontent.com/swadhinbiswas/PhotoBite/main/IMAGESTORE/Screenshot%20from%202023-12-09%2002-23-32.png)
 
 ## Installation
 
