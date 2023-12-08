@@ -1,0 +1,15 @@
+{% extends 'phos/base.html' %}
+
+{% block title %} HomePage {%endblock%}
+
+{%block content %}
+<div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+
+    {% for i in image %}
+<div>
+    <img class="h-auto" src="{{i.photo.url}}">
+</div>
+      {% endfor %}
+</div>
+
+{% endblock %}

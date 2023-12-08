@@ -1,0 +1,38 @@
+{% extends 'phos/base.html' %}
+
+{% block title %} HomePage {%endblock%}
+
+{%block content%}
+
+
+<div class=" z-screen flex items-center rounded-m justify-center">
+
+    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+
+        <img class="w-full h-64 object-cover" src="https://crella.sfo2.cdn.digitaloceanspaces.com/wp-content/uploads/2021/12/13193121/1197-Preview-2-scaled.jpg" alt="Uploaded Photo">
+     
+     
+        <div class="px-6 py-4">
+
+        <form method="post" enctype="multipart/form-data">
+       
+            {% csrf_token %}
+            {{u}}
+            <button type="submit" class="bg-blue-500 
+            hover:bg-blue-700 text-white 
+            font-bold py-2 px-4 rounded">
+                Upload</button>
+             </form>
+        </div>
+       
+    </div>
+  </div>
+
+<div class="grid grid-cols-2 gap-2">
+    {% for x in i %}
+    <img class="h-auto max-w-full rounded-lg" src="{{x.image.url}}" alt="" >
+    {% endfor %}
+</div>
+
+
+{% endblock %}
